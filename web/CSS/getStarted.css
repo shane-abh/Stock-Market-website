@@ -1,0 +1,47 @@
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  border: solid black 4px;;
+}
+
+.footer {
+  background-color: #1D2E3E;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* body{
+  background-image: url('stock-market-background.jpg');
+} */
+
+.title{
+  color: black;
+  margin-top: 200px;
+  
+  font-size: 40px;
+  
+}
+
+.btn{
+  border-radius: 20px;
+  margin-bottom: 300px;
+  font-size: 30px;
+}
+
+.btn:hover{
+  
+  background-color: #008CBA;
+  color: white;
+  font-size: 30px;
+}
+html{
+    background-color: #E6E6E6;
+}
+
+.icon{
+    margin-right: 10px;
+    
+}

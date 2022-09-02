@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+.col-1 {width: 15.33%;}
+.col-2 {width: 50%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {
+    width: 75%;
+    background-color: #F2F1EE;
+    margin: 10px;
+    border-radius: 10px;
+}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {
+    width: 100%;
+}
+
+.col-13{
+    width: 100%;
+    margin: 10px;
+    background-color: #F4F1EA;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+  
+  
+  
+}
+
+.header {
+  
+  background-image: linear-gradient(#0C8AEE,#075493);
+  color: #ffffff;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: 20px;
+  
+  overflow:hidden;
+  border-radius: 5px 5px 10px 10px;
+  border: solid black 2px;;
+}
+
+.footer {
+  background-color: #1D2E3E;
+  color: #ffffff;
+  padding: 15px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 5px;
+  margin-bottom: 7px;
+  background-color: #2196F3;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius: 10px;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#price{
+  font-size: 35px;
+}
+
+#Summary_table,#fin_table{
+  width: 80%;
+}
+
+.chart_buttons{
+  border: 5px solid;
+  border-width: 2px;
+  border-color: lightgray;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  margin-top: 5px;
+  
+}
+
+#FinData{
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    background-color: white;
+    
+}
+
+#FinData,td, th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+html{
+    background-color: #E6E6E6;
+}
+
+.tabcontent{
+    background-color: #ffffff;
+}
+
+.start{
+    background-color: #2196F3;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+        width: 100%;
+        border-radius: 10px;
+}
+
+.icon{
+    margin-right: 10px;
+    
+}
+

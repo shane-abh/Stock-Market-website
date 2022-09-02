@@ -1,0 +1,25 @@
+.search_sto{
+    margin-top: 300px;
+    margin-bottom:  300px;
+}
+
+.stocks{
+    width: 20%;
+    height: 30px;
+    border: black 3px solid;
+    border-radius: 10px;
+}
+
+html{
+    background-color: #E6E6E6;
+}
+
+.search{
+    border-radius: 10px;
+    font-size: large;
+}
+
+.label{
+    font-size: x-large;
+    text-align: left;
+}
