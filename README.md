@@ -1,4 +1,4 @@
-# Stock-Market-website
+## Stock-Market-website
 This project was done using Java Servlets.
 
 Front end was implemented using HTML, CSS and JS.
