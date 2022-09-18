@@ -7,7 +7,7 @@ This project mainly focuses on features related to stock market such as:
   1. Live price graph (updated every 5s)
   2. Real-time price alert system
   3. Login and Portfolio Management
-  4. Financial Raios and other analysis.
+  4. Financial Ratios and other analysis.
   
 # Screenshots
 
